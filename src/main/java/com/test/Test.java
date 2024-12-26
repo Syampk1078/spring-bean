@@ -15,6 +15,9 @@ public class Test {
 		Car obj1 = context.getBean("car",Car.class);
 		System.out.println(obj1.hashCode());
 		
+		//ByDefault bean scope behavior - Singleton(Single object created)
+		//prototype scope - creates different objects for every calling and without calling object - not created byDefault
+		
 	}
 
 }
